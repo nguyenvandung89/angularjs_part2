@@ -1,0 +1,17 @@
+.nav-tabs {
+  background-color: whitesmoke;
+  margin-top: 2px;
+  li {
+    border: none;
+  }
+  li a {
+    color: black;
+  }
+  li.active>a, li.active>a:hover, li.active>a:focus {
+    color: black;
+    background-color: #CCCCCC;
+  }
+}
+.article-th {
+  text-align: center;
+}

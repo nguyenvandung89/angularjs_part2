@@ -16,5 +16,7 @@
 //= require bootstrap/modal
 //= require lib/angular.min
 //= require lib/angular-resource.min
+//= require_tree ./lib
 //= require todoApp
-//= require_tree .
+//= require controllers/ArticleCtrl
+//= require services/ArticleService
