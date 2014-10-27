@@ -8,7 +8,6 @@
 				<small class="help-inline" ng-show="reviewForm.title.$error.required" style="color: red;">Your title is required</small>
 				<small class="help-inline" ng-show="reviewForm.title.$error.minlength" style="color: red;">Your title is required to be at least 3 characters</small>
 				<small class="help-inline" ng-show="reviewForm.title.$error.maxlength" style="color: red;">Your title cannot be longer than 20 characters</small>
-				<small class="help-inline" ng-show="reviewForm.title.$error.unique" style="color: red;">That username is taken, please try another</small>
 			</div>
 	    <label>Content</label><br />
 	    <textarea name="conent" ng-model="article.content" class="ng-dirty ng-valid"></textarea><br />
