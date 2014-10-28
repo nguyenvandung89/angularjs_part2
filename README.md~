@@ -40,37 +40,6 @@ Ví dụ đơn giản về model và data-binding
 ######Services
 + Trong angularjs singletons được thiết kể theo kiểu singletons cho nên nó có thể chia sẻ các chức năng của các controller hoặc
 
-#Trong demo trên có những phần như validate form, pop-up, CRUD, editable, filter, sort bằng angularjs
-*dưới đây là một số hình ảnh về các công việc*
-+ Validate trong form
-
-
-![alt text](https://cloud.githubusercontent.com/assets/4001514/4803423/e34af0b8-5e57-11e4-8d5b-e05e63467202.png "anh1")
-
-
-+ Màn hình index
-
-![alt text](https://cloud.githubusercontent.com/assets/4001514/4803422/e2fe9a74-5e57-11e4-8b8f-9f7991454be1.png "anh2")
-
-
-+ Pop-up
-
-![alt text](https://cloud.githubusercontent.com/assets/4001514/4803424/e34c5822-5e57-11e4-9e7a-04c72fd9fe81.png "anh3")
-
-+ Edit inline và edit trên form
-
-![alt text](https://cloud.githubusercontent.com/assets/4001514/4803426/e3521154-5e57-11e4-8cb1-1a45abe5c7c0.png "anh4")
-
-
-![alt text](https://cloud.githubusercontent.com/assets/4001514/4803425/e34f4ee2-5e57-11e4-8d97-273281fe973c.png "anh5")
-
-+ Search
-
-![alt text](https://cloud.githubusercontent.com/assets/4001514/4803427/e3540928-5e57-11e4-81a8-e43fd3293fe9.png "anh6")
-
-
-
-
 
 
 
