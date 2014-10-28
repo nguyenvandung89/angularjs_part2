@@ -4,7 +4,11 @@ AngularJS được phát triển bởi Google. Mục tiêu của AngularJS là t
 
 
 Angulajs sử dung các ng-* tag vào html Sau đó sử dụng js tương tác two-way binding một cách đồng bộ giữa model và view. AngularJS làm cho việc xữ lý DOM cho nên dễ dàng debug hay test và sửa chữa
+
+
 ####Cài đặt
+
+
 Có hai cách cài đặt angularjs vào project
 
 
@@ -19,11 +23,17 @@ Có hai cách cài đặt angularjs vào project
 
 
 + Quản lý sự thay đổi của model và báo cho view, ngoài ra nó còn chuyển các events cho controller xữ lý
+
+
 ######Model
+
+
 + Như là một object javascript
 
 
 ######Data-binding
+
+
 + Angular thược hiện các thao tác với dữ liệu thuộc tính ng-model trong html, việc sử dụng data-binding sẽ giúp tối ưu hoá mã nguồn và giúp giảm số lượng dòng code mà bạn phải viết, giúp cho việc hiển thị dữ liệu tức thì không cần phải load trang
 
 
@@ -42,8 +52,20 @@ Ví dụ đơn giản về model và data-binding
 ######Services
 + Trong angularjs singletons được thiết kể theo kiểu singletons cho nên nó có thể chia sẻ các chức năng của các controller hoặc
 
+
+######View
++ Được xây dựng dựa trên các Dom objects. không dựa trên string, và view chính ở đây là html
+
+
+*ngoài các định ghĩa trên angularjs còn hỗ trợ rất nhiều các chức năng như search, hay sắp xếp dữ liệu, hoặc vaildate ...*
+
+
 #Trong demo trên có những phần như validate form, pop-up, CRUD, editable, filter, sort bằng angularjs
+
+
 *dưới đây là một số hình ảnh về các công việc*
+
+
 + Validate trong form
 
 
@@ -69,32 +91,3 @@ Ví dụ đơn giản về model và data-binding
 + Search
 
 ![alt text](https://cloud.githubusercontent.com/assets/4001514/4803427/e3540928-5e57-11e4-81a8-e43fd3293fe9.png "anh6")
-
-
-
-
-
-######View
-+ Được xây dựng dựa trên các Dom objects. không dựa trên string, và view chính ở đây là html
-
-
-*ngoài các định ghĩa trên angularjs còn hỗ trợ rất nhiều các chức năng như search, hay sắp xếp dữ liệu, hoặc vaildate ...*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
