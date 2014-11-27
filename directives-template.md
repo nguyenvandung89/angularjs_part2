@@ -142,3 +142,4 @@ khi đó template sẽ là nội dung của trang template1.html
 
 
 thì template ở đây sẽ là file index.html
+####Trong demo suource code tôi có làm về sử dụng directive và template các bạn có thể tham khảo thêm trong source code.
