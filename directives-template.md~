@@ -20,11 +20,11 @@ angular.module("todoApp").controller("myInfoController", ["$scope", ($scope) ->
 
 ở đây ta có controller là myInfoController và tên của directive là myInfo và khi gọi trên view ta chỉ cần gọi như sau:
 
-```javascript
-<div ng-controller="myInfoController">
-  <div my-info></div>
-</div>
-```
+
+><div ng-controller="myInfoController">
+>  <div my-info></div>
+></div>
+
 
 thì kết quả của thẻ div trên sẽ là phần nội dung của directive mà ta khai báo ở trên
 
@@ -34,7 +34,7 @@ thì kết quả của thẻ div trên sẽ là phần nội dung của directiv
 + ng-init: khi muốn khai báo dữ liệu khi mà ứng dụng vừa được chạy và dữ liệu này sẽ được dùng cho toàn bộ controller mà nó nằm trong
 
 
-Ngoài các directive mà angularjs có sẵn thì chúng ta có thể tự định ghĩa một directive để dùng
+>Ngoài các directive mà angularjs có sẵn thì chúng ta có thể tự định ghĩa một directive để dùng
 + Ví dụ:
 ```javascript
 angular.module("todoApp").controller("blockFormController", ["$scope", ($scope) ->
@@ -49,17 +49,16 @@ angular.module("todoApp").controller("blockFormController", ["$scope", ($scope) 
 
 Ở đây ta đã khai báo một directive mới có tên là blockform và thuộc tính restrict để khai báo dạng dữ liệu có thể là một template hay một templateUrl và ở trên view ta gọi như sau
 
-```javascript
-<div ng-controller="blockFormController">
- <block-form></block-form>
-</div>
-```
+
+><div ng-controller="blockFormController">
+> <block-form></block-form>
+></div>
+
 
 #####Về một thuộc tính mà directive hỗ trợ và hay được dùng đó là có thể sử dụng để validate các thuộc tính input khi submit form
 ví dụ:
-```javascript
-<input type="text" name="title" placeholder="Enter article title" ng-model="article.title" class="input-xlarge search-query"  ng-minlength=3 ng-maxlength=20 ensure-unique="title" required /><br />
-```
+><input type="text" name="title" placeholder="Enter article title" ng-model="article.title" class="input-xlarge search-query"  ng-minlength=3 ng-maxlength=20 ensure-unique="title" required /><br />
+
 
 Trong này thì ta đã validate các thuộc tính như độ dài max, min, và phải nhập, nhưng nếu muốn thêm các validate mới thì ta có thể viết hàm và include vào thẻ input
 
@@ -80,9 +79,8 @@ angular.module('todoApp')
 
 Và gọi ra thì ta gọi như sau:
 
-```javascript
-<input type="email" name="email" ng-model="user.email" email-format-validator required />
-```
+
+><input type="email" name="email" ng-model="user.email" email-format-validator required />
 + Ở đây ta có tên directive là emailFormatValidator và gọi ra thì ta gọi như sau email-format-validator khi mà người dùng nhập email mà không đúng các định dạng mà ta đã format thì sẽ không save được data thành công
 
 
@@ -127,9 +125,7 @@ $scope.template = templates[0];
 
 
 Còn trên view ta sẽ gọi như sau:
-```javascript
 <div ng-include src="template.url"></div>
-```
 khi đó template sẽ là nội dung của trang template1.html
 
 
