@@ -64,7 +64,7 @@ Ví dụ đơn giản về model và data-binding
 
 
 *dưới đây là một số hình ảnh về các công việc*
-
+dsds
 
 + Validate trong form
 
