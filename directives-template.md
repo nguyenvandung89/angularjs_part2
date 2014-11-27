@@ -58,7 +58,7 @@ angular.module("todoApp").controller("blockFormController", ["$scope", ($scope) 
 #####Về một thuộc tính mà directive hỗ trợ và hay được dùng đó là có thể sử dụng để validate các thuộc tính input khi submit form
 ví dụ:
 ```javascript
-<input type="text" name="title" placeholder="Enter article title" ng-model="article.title" class="input-xlarge search-query"  ng-minlength=3 ng-maxlength=20 ensure-unique="title" required /><br />
+<input type="text" name="name" placeholder="Enter article name" ng-model="user.name" class="input-xlarge search-query"  ng-minlength=3 ng-maxlength=20 ensure-unique="name" required /><br />
 ```
 
 Trong này thì ta đã validate các thuộc tính như độ dài max, min, và phải nhập, nhưng nếu muốn thêm các validate mới thì ta có thể viết hàm và include vào thẻ input
@@ -87,7 +87,7 @@ Và gọi ra thì ta gọi như sau:
 
 
 ##Angularjs template
-###Tại sao nên dùng template
+###Tại sao nên dùng template?
 + Khi mà các view trong html mà phức tạp hay là có một phần nào đó được dùng đi dùng lại thì trong angularjs có template để giải quyết
 + Có 2 cách để tạo một template trong angularjs
     Dùng file ngoài: nghĩa là chúng ta dùng một file html khác làm template cho file chính rồi trong file chính ta gọi vào
@@ -142,4 +142,6 @@ khi đó template sẽ là nội dung của trang template1.html
 
 
 thì template ở đây sẽ là file index.html
-####Trong demo suource code tôi có làm về sử dụng directive và template các bạn có thể tham khảo thêm trong source code.
+####Trong demo source code tôi có làm về sử dụng directive và template các bạn có thể tham khảo thêm trong source code.
+
+[source code demo](https://github.com/nguyenvandung89/angularjs_part2)
