@@ -18,5 +18,10 @@
 //= require lib/angular-resource.min
 //= require_tree ./lib
 //= require todoApp
+//= require directives/validateUser
+//= require directives/myInfo
+//= require directives/blockForm
 //= require controllers/ArticleCtrl
+//= require controllers/UserCtrl
 //= require services/ArticleService
+//= require services/UserService
